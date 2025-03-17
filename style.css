@@ -100,6 +100,10 @@ body {
     display: inline-block;
     margin-top: 20px;
 }
+.coffee-herald h2 {
+        font-size: 0.9rem; /* تصغير حجم النص */
+        
+    }
 
 .btn:hover {
     background: white;
