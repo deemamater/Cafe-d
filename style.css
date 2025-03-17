@@ -197,16 +197,19 @@ body {
     }
  
     .menu-btn, .home-btn {
-        font-size: 0.9rem; /* تصغير حجم النص */
+         /* تصغير حجم النص */
         padding: 6px 15px; /* تصغير الأزرار */
     }
     .btn {
-        font-size: 0.9rem; /* تصغير حجم النص */
-        padding: 6px 15px; /* تصغير الأزرار */
+        font-size: 0.5rem; /* تصغير حجم النص */
+        padding: 4px 10px; /* تصغير الأزرار */
     }
 
     .offer-section {
-        padding: 20px 5px; /* تصغير التباعد */
+        padding: 15px 5px; /* تصغير التباعد */
+    }
+    .offer-section h2 {
+        font-size: 0.5rem;
     }
 
     .offers {
@@ -226,6 +229,7 @@ body {
         width: 150px; /* تصغير الصور */
     }
 }
+
 
 @keyframes fadeIn {
     from {
