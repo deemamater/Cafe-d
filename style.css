@@ -24,17 +24,16 @@ body {
     position: relative;
     padding: 0;
 }
-
 .overlay {
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
-    height: 30%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    text-align: right;
-    padding: 345px 1150px;
+    text-align: center;
+    padding: 20px;
 }
 
 .overlay h1 {
@@ -42,11 +41,10 @@ body {
 }
 
 .hero-section h1 {
-    font-size: 12rem;
-    margin: 0 0 20px;
-    position: absolute;
-    right: 400px;
-    top: 10%;
+    font-size: 6rem;
+    margin: 10px 0;
+    position: relative;
+    text-align: center;
     animation-delay: 0.5s;
 }
 
@@ -79,14 +77,13 @@ body {
 
 /* Hero Section Text */
 .hero-section p {
-    font-size: 1.9rem;
-    line-height: 1.6;
-    margin: 0 0 20px;
+    font-size: 1.5rem;
     text-align: center;
     animation-delay: 1s;
-    position: absolute;
-    right: 150px;
-    top: 50%;
+    max-width: 80%;
+    margin: 10px auto;
+    position: relative;
+   
 }
 
 /* Button Style */
@@ -99,9 +96,9 @@ body {
     border: 2px solid white;
     border-radius: 8px;
     transition: background 0.3s;
-    position: absolute;
-    right: 510px;
-    top: 60%;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 .btn:hover {
@@ -175,7 +172,30 @@ body {
 .hero-section .btn {
     animation-delay: 1.5s;
 }
+/* Responsive Design deema fix */ 
+@media (max-width: 768px) {
+    .hero-section {
+        height: auto;
+        padding: 50px 20px;
+    }
 
+    .hero-section h1 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .overlay {
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -187,13 +207,7 @@ body {
     }
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .offers, .images-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
 
 /* Header */
 .header {
