@@ -100,10 +100,6 @@ body {
     display: inline-block;
     margin-top: 20px;
 }
-.coffee-herald h2 {
-        font-size: 0.9rem; /* تصغير حجم النص */
-        
-    }
 
 .btn:hover {
     background: white;
@@ -208,6 +204,7 @@ body {
         font-size: 0.9rem; /* تصغير حجم النص */
         padding: 6px 12px; /* تصغير الأزرار */
     }
+    
 
     .offer-section {
         padding: 15px 5px; /* تصغير التباعد */
@@ -215,6 +212,12 @@ body {
     .offer-section h2 {
         font-size: 1.2rem;
     }
+    
+    .coffee-herald h2 {
+        font-size: 0.9rem; /* تصغير حجم النص */
+        
+    }
+    
 
     .offers {
         flex-direction: column; /* يجعل العناصر عمودية */
