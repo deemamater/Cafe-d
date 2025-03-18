@@ -227,6 +227,10 @@ body {
     .offer {
         max-width: 150px; /* تقليل حجم العناصر */
     }
+    .offer p {
+        font-size: .5rem;
+        
+    }
 
     .offer img {
         width: 30px; /* تقليل حجم الصور */
